@@ -4,6 +4,17 @@ RestSharp Authenticator for Veracode HMAC based API authentication
 
 Description of HMAC Authentication with Veracode APIs is available here: https://help.veracode.com/r/c_enabling_hmac
 
+## Prerequisites
+Install Restsharp nuget package
+```
+Install-Package RestSharp
+```
+
+Install Contrib.RestSharp.Authenticators.Veracode nuget package
+```
+Install-Package Contrib.RestSharp.Authenticators.Veracode
+```
+
 ## Example Veracode Rest API
 ```c#
 using RestSharp;

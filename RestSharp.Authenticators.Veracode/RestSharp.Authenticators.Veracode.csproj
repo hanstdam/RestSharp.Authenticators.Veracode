@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <AssemblyName>RestSharp.Authenticators.Veracode</AssemblyName>
-    <PackageId>RestSharp.Authenticators.Veracode</PackageId>
+    <PackageId>Contrib.RestSharp.Authenticators.Veracode</PackageId>
     <RootNamespace>RestSharp.Authenticators.Veracode</RootNamespace>
     <GenerateFullPaths>true</GenerateFullPaths>
     <OutputType>Library</OutputType>
