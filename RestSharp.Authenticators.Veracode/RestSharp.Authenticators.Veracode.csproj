@@ -7,6 +7,7 @@
     <OutputType>Library</OutputType>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <DebugType>embedded</DebugType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
@@ -35,10 +36,13 @@
     <Copyright>Copyright © Hans Thorhauge Dam</Copyright>
     <RepositoryType>GIT</RepositoryType>
     <RepositoryURL>https://github.com/hanstdam/RestSharp.Authenticators.Veracode</RepositoryURL>
-    <PackageLicenseUrl>https://github.com/hanstdam/RestSharp.Authenticators.Veracode/blob/main/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="RestSharp" Version="106.12.0" />
   </ItemGroup>
 
